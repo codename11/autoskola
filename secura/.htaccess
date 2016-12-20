@@ -1,0 +1,11 @@
+#<FilesMatch "cover.php"> Ovako postavljamo ako zelimo specifican fajl da zastitimo. Hestag je za komentare.
+AuthType Basic
+AuthName "secura"
+AuthUserFile C:\xampp\.htpasswd
+Require valid-user 
+#</FilesMatch>
+
+
+
+
+
