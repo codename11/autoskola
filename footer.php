@@ -33,7 +33,10 @@ if(!defined('MyConst1')) {
 		<div class="row">
 			<div class="col-sm-2"></div>
 			<div class="col-sm-8 text-center">
-				<img src="images/share.jpg" class="tys img-responsive img-rounded" alt="share"><!--Just mockup of social buttons. -->
+				<div class="fb-share-button" 
+		data-href="siteIPaddress/www/autoskola/index.php" 
+		data-layout="button_count">
+	</div>
 			</div>
 			<div class="col-sm-2"></div>
 		</div>

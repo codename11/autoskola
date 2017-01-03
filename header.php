@@ -20,8 +20,21 @@ if(!defined('MyConst1')) {
 	<script src="skripta.js"></script>
 	<link rel="stylesheet" type="text/css" href="indicatorsofcarousel.css">
 	<script src="indicatorsofcarousel.js"></script>
+	<meta property="og:url"           content="109.93.200.93/www/autoskola/index.php" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Autoskola" />
+	<meta property="og:description"   content="Driving school" />
+	<meta property="og:image"         content="siteIPaddress/www/autoskola/images/autoskola.jpg" />
 </head>
 <body>
 <?php
 include 'head.php';
 ?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
