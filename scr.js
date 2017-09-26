@@ -83,3 +83,9 @@ function sub_del(e){
 			
 }
 
+function bojapre(x){
+	x.style.backgroundColor = "#E7E7E7";
+}
+function bojaposle(x) {
+    x.style.backgroundColor = "#b3b3b3";
+}

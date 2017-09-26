@@ -17,14 +17,15 @@ if(!defined('MyConst1')) {
 	<meta name="keywords" content="auto škola, auto skola, auto škole smederevo, auto skole smederevo, auto testovi, polaganje vožnje, polaganje voznje, polaganje za AM kategoriju, polaganje za A1 kategoriju, polaganje za A2 kategoriju, polaganje za A kategoriju, polaganje za B kategoriju, polaganje za C kategoriju, obuka za AM kategoriju, obuka za A1 kategoriju,obuka za A2 kategoriju, obuka za A kategoriju, obuka za B kategoriju, obuka za C kategoriju">
 	<meta name="author" content="Veljko Stefanović">
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="altstyles.css">
 	<script src="skripta.js"></script>
 	<link rel="stylesheet" type="text/css" href="indicatorsofcarousel.css">
 	<script src="indicatorsofcarousel.js"></script>
-	<meta property="og:url"           content="109.93.200.93/www/autoskola/index.php" />
+	<meta property="og:url"           content="109.93.200.105/www/autoskola/index.php" />
 	<meta property="og:type"          content="website" />
 	<meta property="og:title"         content="Autoskola" />
 	<meta property="og:description"   content="Driving school" />
-	<meta property="og:image"         content="siteIPaddress/www/autoskola/images/autoskola.jpg" />
+	<meta property="og:image"         content="109.93.200.105/www/autoskola/images/autoskola.jpg" />
 </head>
 <body>
 <?php

@@ -47,7 +47,7 @@ FROM kandidat
 				<th>Prijava za kategoriju</th>
 				<th>Poruka</th>
 			</tr>
-		</thead>
+		</thead><tbody>
 		";
 	
 	if(isset($_SESSION['username'])){
@@ -66,15 +66,15 @@ FROM kandidat
 		$br=$row["id"];
 		$br1++;
 		//onclick='get_id(this.id)'
-		$rejl2 = "<tbody><tr class='podaci brew' id='$br' style='font-weight: normal;'><td><div class='checkbox' ><label><input type='checkbox' class='bx' id='$br' name='jnejm[$br]' value='$br' >Obriši</label></div></td>";
+		$rejl2 = "<tr class='podaci brew' id='$br' style='font-weight: normal;'><td><div class='checkbox' ><label><input type='checkbox' class='bx' id='$br' name='jnejm[$br]' value='$br' >Obriši</label></div></td>";
 		
-		$rejl3 = "<td>".$row["id"]."</td>"."<td>".$row["Ime"]."</td>"."<td>".$row["Prezime"]."</td>"."<td>".$row["Ime_roditelja"]."</td>"."<td>".$row["Opstina_stanovanja"]."</td>"."<td>".$row["Adresa"]."</td>"."<td>".$row["Mesto_stanovanja"]."</td>"."<td>".$row["Tel1"]."</td>"."<td>".$row["Tel2"]."</td>"."<td>".$row["Datum_rodjenja"]."</td>"."<td>".$row["Opstina_rodjenja"]."</td>"."<td>".$row["Mesto_rodjenja"]."</td>"."<td>".$row["JMBG"]."</td>"."<td>".$row["Mesto_izdavanja_licne_karte"]."</td>"."<td>".$row["Zanimanje"]."</td>"."<td>".$row["Pol"]."</td>"."<td>".$row["Kategorija"]."</td>"."<td>".$row["Poruka"]."</td></tr></tbody>";
+		$rejl3 = "<td>".$row["id"]."</td>"."<td>".$row["Ime"]."</td>"."<td>".$row["Prezime"]."</td>"."<td>".$row["Ime_roditelja"]."</td>"."<td>".$row["Opstina_stanovanja"]."</td>"."<td>".$row["Adresa"]."</td>"."<td>".$row["Mesto_stanovanja"]."</td>"."<td>".$row["Tel1"]."</td>"."<td>".$row["Tel2"]."</td>"."<td>".$row["Datum_rodjenja"]."</td>"."<td>".$row["Opstina_rodjenja"]."</td>"."<td>".$row["Mesto_rodjenja"]."</td>"."<td>".$row["JMBG"]."</td>"."<td>".$row["Mesto_izdavanja_licne_karte"]."</td>"."<td>".$row["Zanimanje"]."</td>"."<td>".$row["Pol"]."</td>"."<td>".$row["Kategorija"]."</td>"."<td>".$row["Poruka"]."</td></tr>";
 		
 		echo $rejl2;
 		echo $rejl3;
 		
 		}
-		
+		wcho "</tbody>";
 	}
 	else {
      echo "0 results";

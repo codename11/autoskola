@@ -34,7 +34,7 @@ if(!defined('MyConst1')) {
 			<div class="col-sm-2"></div>
 			<div class="col-sm-8 text-center">
 				<div class="fb-share-button" 
-		data-href="siteIPaddress/www/autoskola/index.php" 
+		data-href="109.93.200.105/www/autoskola/index.php" 
 		data-layout="button_count">
 	</div>
 			</div>
